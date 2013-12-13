@@ -13,6 +13,7 @@
 
         $question.click(function () {
             $answer.toggleClass('campl-questions-answer-revealed');
+            $(window).trigger('resize'); // force column heights to be recalculated
         })
     });
 
