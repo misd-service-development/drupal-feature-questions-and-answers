@@ -10,3 +10,8 @@
 .js .campl-questions-answer-revealed {
     display: block;
 }
+
+h2.campl-questions-question {
+    font-size: 17px;
+    line-height: 23px;
+}
