@@ -1,5 +1,5 @@
 name = Questions and answers
-description = Foo
+description = Adds a questions-and-answers content type.
 core = 7.x
 package = University of Cambridge
 version = 7.x-1.0-dev
