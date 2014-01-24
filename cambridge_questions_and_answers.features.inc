@@ -12,7 +12,7 @@ function cambridge_questions_and_answers_node_info() {
     'questions_and_answers' => array(
       'name' => t('Questions and Answers'),
       'base' => 'node_content',
-      'description' => t('Something.'),
+      'description' => t('Use <em>questions and answers</em> to create FAQ-style pages.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
