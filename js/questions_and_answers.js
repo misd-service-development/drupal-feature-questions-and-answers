@@ -1,4 +1,4 @@
-(function ($) {
+jQuery(function ($) {
 
     var $questions = $('.field-collection-item-field-questions-and-answers > .content > h2');
 
@@ -17,4 +17,4 @@
         })
     });
 
-})(jQuery);
+});
