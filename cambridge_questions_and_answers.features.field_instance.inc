@@ -98,6 +98,12 @@ function cambridge_questions_and_answers_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 1,
       ),
+      'focus_on_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
       'news_listing_item' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -182,6 +188,16 @@ function cambridge_questions_and_answers_field_default_field_instances() {
         'type' => 'image',
         'weight' => 0,
       ),
+      'focus_on_teaser' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => 'content',
+          'image_style' => 'small',
+        ),
+        'type' => 'image',
+        'weight' => 0,
+      ),
       'news_listing_item' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -233,7 +249,7 @@ function cambridge_questions_and_answers_field_default_field_instances() {
         'inline' => 'inline',
         'leading' => 'leading',
         'sidebar_teaser' => 'sidebar_teaser',
-        'small' => 0,
+        'small' => 'small',
       ),
       'max_filesize' => '',
       'max_resolution' => '',
@@ -287,6 +303,12 @@ function cambridge_questions_and_answers_field_default_field_instances() {
         ),
         'type' => 'field_collection_view',
         'weight' => 2,
+      ),
+      'focus_on_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
       ),
       'news_listing_item' => array(
         'label' => 'above',
