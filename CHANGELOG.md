@@ -1,6 +1,11 @@
 Changelog
 =========
 
+7.x-1.2
+-------
+
+* Update compatibility with the Teasers feature and the Features module to prevent this feature appearing as overriden.
+
 7.x-1.1
 -------
 
