@@ -1,8 +1,18 @@
 Changelog
 =========
 
+7.x-1.3
+-------
+
+11 May 2015.
+
+* Match changes made in Features 2.4.
+* Use Drupal Behaviors.
+
 7.x-1.2
 -------
+
+27 May 2014.
 
 * Update compatibility with the Teasers feature and the Features module to prevent this feature appearing as overriden.
 
